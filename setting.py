@@ -13,6 +13,8 @@ print("""\33[0;32m[1] RUN\n[2] CANCEL\nWhich one do you use?""")
 
 c = input(">>>: ")
 if c == "1":
+    os.system("rm -rf randomstring")
+    os.system("rm -rf resources")
     os.system("unzip randomstring.zip")
     os.system("rm -rf randomstring.zip")
     os.system("unzip resources.zip")
