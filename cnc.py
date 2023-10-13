@@ -154,7 +154,7 @@ def menu():
 def main():
 
 	while True:
-		sys.stdout.write(f"\x1b]2;[/] BigBang Pannel :: Welcome, root :: Online 1 :: Running: 0/10\x07")
+		sys.stdout.write(f"\x1b]2;[/] BigBang Pannel :: Server Online 500 :: Online 1 :: Running: 0/10\x07")
 		sin = input("\033[0;30;45mBigBang @ PANNEL\x1b[1;37m\033[0m:~# \x1b[1;37m\033[0m ")
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
