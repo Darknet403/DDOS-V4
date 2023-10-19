@@ -1,5 +1,5 @@
-# Compile By AmmarrBN
-# https://github.com/AmmarrBN/Py-Fuscate
+# Compile By AmmarrBN && Mr.Cyber
+# https://github.com/teamvyber-glitch
 # Make Sure You're Running The Program With python3.11 Otherwise It May Crash
 # To Check Your Python Version Run "python -V" Command
 try:
