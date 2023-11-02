@@ -1,6 +1,7 @@
 from builtins import *
 from math import prod as _square
 
+#Special Collaboration Mr.E-Cyber with  Kethek Man#
 
 __obfuscator__ = 'Reroatzx'
 __authors__ = ('Reroatzx-777', 'BlueRed')
